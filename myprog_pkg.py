@@ -24,7 +24,6 @@ if __name__ == "__main__":
 			for i in list2:
 				list2[list2.index(i)] = i.strip()
 
-			print(list1, list2)
 			print("=> union ", my_pkg.union(list1, list2))
 			print("=> intersection ", my_pkg.intersection(list1, list2))
 		else:
